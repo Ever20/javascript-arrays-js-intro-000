@@ -4,3 +4,7 @@
   'kitkat',
   'skittles'
 ];
+
+function addElementToBeginningOfArray(myArray, element) {
+  return [element, ...myArray];
+}
